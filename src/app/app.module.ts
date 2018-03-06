@@ -20,7 +20,7 @@ import {AppComponent} from './app.component';
   `
 })
 class CollapsiblePanelComponent {
-  visible: false;
+  visible: boolean;
 }
 
 
