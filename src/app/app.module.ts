@@ -19,10 +19,9 @@ import {AppComponent} from './app.component';
   </div>
   `
 })
-class CollapsiblePanelComponent {
+export class CollapsiblePanelComponent {
   visible: boolean;
 }
-
 
 @NgModule({
   declarations: [
