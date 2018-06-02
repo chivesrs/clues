@@ -1,6 +1,6 @@
 # Clues
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.7.2.
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.0.7.
 Example of collapsible panel taken from https://embed.plnkr.co/SP6XNu5aoXorh5jIePdi/.
 Elite clue images taken from https://imgur.com/a/yKTZa.
 
@@ -14,7 +14,7 @@ Run `ng generate component component-name` to generate a new component. You can 
 
 ## Build
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `-prod` flag for a production build.
+Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
 
 ## Running unit tests
 
