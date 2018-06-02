@@ -9,6 +9,6 @@ describe('clues App', () => {
 
   it('should display welcome message', () => {
     page.navigateTo();
-    expect(page.getParagraphText()).toEqual('Welcome to Elite Scan Clue Guide!');
+    expect(page.getParagraphText()).toEqual('Welcome to Scan Clue Guide!');
   });
 });
