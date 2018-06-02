@@ -1,7 +1,8 @@
 import {BrowserModule} from '@angular/platform-browser';
-import {CUSTOM_ELEMENTS_SCHEMA, NgModule} from '@angular/core';
+import {NgModule} from '@angular/core';
 
-import {AppComponent, CollapsiblePanelComponent} from './app.component';
+import {AppComponent} from './app.component';
+import {CollapsiblePanelComponent} from './collapsible-panel/collapsible-panel.component';
 
 @NgModule({
   declarations: [
@@ -13,7 +14,6 @@ import {AppComponent, CollapsiblePanelComponent} from './app.component';
   ],
   providers: [],
   bootstrap: [AppComponent],
-  schemas: [CUSTOM_ELEMENTS_SCHEMA],
 })
 export class AppModule {
 }
