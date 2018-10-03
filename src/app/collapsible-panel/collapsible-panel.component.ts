@@ -6,7 +6,7 @@ import {Component, OnInit} from '@angular/core';
   styleUrls: ['./collapsible-panel.component.css']
 })
 export class CollapsiblePanelComponent implements OnInit {
-  visible: boolean;
+  visible = false;
 
   constructor() {
   }
