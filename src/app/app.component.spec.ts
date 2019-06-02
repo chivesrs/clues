@@ -1,10 +1,10 @@
-import {TestBed} from '@angular/core/testing';
+import {TestBed, async} from '@angular/core/testing';
 import {AppComponent} from './app.component';
 
 import {CollapsiblePanelModule} from './collapsible-panel/collapsible-panel.module';
 
 describe('AppComponent', () => {
-  beforeEach(() => {
+  beforeEach(async(() => {
     TestBed.configureTestingModule({
       declarations: [
         AppComponent,
@@ -13,7 +13,7 @@ describe('AppComponent', () => {
         CollapsiblePanelModule,
       ],
     }).compileComponents();
-  });
+  }));
 
   it('should create the app', () => {
     const fixture = TestBed.createComponent(AppComponent);
@@ -25,7 +25,6 @@ describe('AppComponent', () => {
     const fixture = TestBed.createComponent(AppComponent);
     fixture.detectChanges();
     const compiled: HTMLDivElement = fixture.debugElement.nativeElement;
-    // @ts-ignore
     expect(compiled.querySelector('h1').textContent).toContain('Welcome to Scan Clue Guide!');
   });
 });

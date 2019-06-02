@@ -1,7 +1,9 @@
 # Clues
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.0.7.
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.0.1.
+
 Example of collapsible panel taken from https://embed.plnkr.co/SP6XNu5aoXorh5jIePdi/.
+
 Elite clue images taken from https://imgur.com/a/yKTZa.
 
 ## Development server

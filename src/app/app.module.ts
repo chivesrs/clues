@@ -5,7 +5,6 @@ import {AppComponent} from './app.component';
 import {CollapsiblePanelModule} from './collapsible-panel/collapsible-panel.module';
 
 @NgModule({
-  bootstrap: [AppComponent],
   declarations: [
     AppComponent,
   ],
@@ -14,6 +13,9 @@ import {CollapsiblePanelModule} from './collapsible-panel/collapsible-panel.modu
     CollapsiblePanelModule,
   ],
   providers: [],
+  bootstrap: [
+    AppComponent,
+  ],
 })
 export class AppModule {
 }
