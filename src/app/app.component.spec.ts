@@ -25,6 +25,6 @@ describe('AppComponent', () => {
     const fixture = TestBed.createComponent(AppComponent);
     fixture.detectChanges();
     const compiled: HTMLDivElement = fixture.debugElement.nativeElement;
-    expect(compiled.querySelector('h1').textContent).toContain('Welcome to Scan Clue Guide!');
+    expect(compiled.querySelector('h1')!.textContent).toContain('Welcome to Scan Clue Guide!');
   });
 });
