@@ -1,7 +1,8 @@
 import {TestBed, async} from '@angular/core/testing';
-import {AppComponent} from './app.component';
+import {MatExpansionModule} from '@angular/material/expansion';
+import {NoopAnimationsModule} from '@angular/platform-browser/animations';
 
-import {CollapsiblePanelModule} from './collapsible-panel/collapsible-panel.module';
+import {AppComponent} from './app.component';
 
 describe('AppComponent', () => {
   beforeEach(async(() => {
@@ -10,7 +11,8 @@ describe('AppComponent', () => {
         AppComponent,
       ],
       imports: [
-        CollapsiblePanelModule,
+        MatExpansionModule,
+        NoopAnimationsModule,
       ],
     }).compileComponents();
   }));
