@@ -1,5 +1,6 @@
-import {BrowserModule} from '@angular/platform-browser';
 import {NgModule} from '@angular/core';
+import {BrowserModule} from '@angular/platform-browser';
+import {NoopAnimationsModule} from '@angular/platform-browser/animations';
 
 import {AppComponent} from './app.component';
 import {CollapsiblePanelModule} from './collapsible-panel/collapsible-panel.module';
@@ -11,6 +12,7 @@ import {CollapsiblePanelModule} from './collapsible-panel/collapsible-panel.modu
   imports: [
     BrowserModule,
     CollapsiblePanelModule,
+    NoopAnimationsModule,
   ],
   providers: [],
   bootstrap: [
