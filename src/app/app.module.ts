@@ -1,4 +1,5 @@
 import {NgModule} from '@angular/core';
+import {MatExpansionModule} from '@angular/material/expansion';
 import {BrowserModule} from '@angular/platform-browser';
 import {NoopAnimationsModule} from '@angular/platform-browser/animations';
 
@@ -12,6 +13,7 @@ import {CollapsiblePanelModule} from './collapsible-panel/collapsible-panel.modu
   imports: [
     BrowserModule,
     CollapsiblePanelModule,
+    MatExpansionModule,
     NoopAnimationsModule,
   ],
   providers: [],
