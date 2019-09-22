@@ -4,7 +4,6 @@ import {BrowserModule} from '@angular/platform-browser';
 import {NoopAnimationsModule} from '@angular/platform-browser/animations';
 
 import {AppComponent} from './app.component';
-import {CollapsiblePanelModule} from './collapsible-panel/collapsible-panel.module';
 
 @NgModule({
   declarations: [
@@ -12,7 +11,6 @@ import {CollapsiblePanelModule} from './collapsible-panel/collapsible-panel.modu
   ],
   imports: [
     BrowserModule,
-    CollapsiblePanelModule,
     MatExpansionModule,
     NoopAnimationsModule,
   ],
